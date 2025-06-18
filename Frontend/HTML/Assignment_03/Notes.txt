@@ -1,0 +1,39 @@
+1. What is the Shortcut Emmet Used to Create boilerplate of HTML ?
+    !+Enter
+2. What is DOCTYPE in Html ?
+    Is used to tell the web browser what version of HTML the page is written in.
+
+3. What is Void Element and Example for Void Elements ?
+    A Void Element is an HTML element that does not have a closing tag and cannot have any child content (like text or other tags).
+    These elements are self-contained, meaning they stand alone and are complete on their own.
+
+4. What is Different Element and Attributes ?
+    An HTML element defines the structure and content on a web page. It is made up of a start tag, content, and an optional end tag.
+    An attribute provides additional information about an element. Attributes are always specified in the start tag and usually come in name="value" pairs.
+5. What is Html Entries and Why is it need in HTML ?
+    HTML Entities are special codes used to display reserved characters, symbols, or invisible characters in HTML that would otherwise be interpreted as HTML code or not display properly.
+    ✅ To display reserved characters (like <, >, &) that HTML uses for its own syntax.
+
+    ✅ To show special symbols (like ©, ®, ™, €, →).
+
+    ✅ To represent non-breaking spaces, invisible spaces, or other formatting purposes.
+
+
+6. What are meta tag and why is it used 
+    The <meta> tag is an HTML tag placed inside the <head> section of a webpage. It provides metadata (data about the data) such as character encoding, page description, keywords, author, and viewport settings.
+    Meta tags are important because they:
+
+    ✅ Help search engines understand your page (SEO).
+
+    ✅ Define character encoding (to properly display text).
+
+    ✅ Improve mobile responsiveness (via the viewport tag).
+
+    ✅ Specify author and page description.
+
+    ✅ Help social media platforms when sharing links (using Open Graph tags).
+
+
+    
+7. what is the best way to add images in Website ?
+    By using CDN we can add images to the webpages.
