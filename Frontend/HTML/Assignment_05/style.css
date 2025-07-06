@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .main-container{
-    background-image: url("https://ik.imagekit.io/al2jw04x2/MERN/Assignment-04/todolistbg.png_updatedAt=1700761069523?updatedAt=1750616403759");
+    background-image: url("https://ik.imagekit.io/al2jw04x2/MERN/Assignment-05/3d4da0ac8d094bdbe920e17de5962557.jpg?updatedAt=1751375752467");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 800px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
 }

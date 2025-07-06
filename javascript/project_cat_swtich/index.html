@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="py-3">
+
+        <div class="2xl:container mx-auto">
+        <div class="w[80%] mx-auto  bg-red-300 py-2">
+            <div class="flex flex-col items-center justify-center gap-2">
+                <!-- <div class="flex  flex-col justify-center items-center h-screen"> -->
+                    <img src="https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png" alt="" id="cat_image" height="150" width="150">
+                    <img src ="https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png" alt="" id="bulb_img" height="150" width="150">
+                <!-- </div> -->
+                <div class="flex justify-center items-center">
+                    <div class="flex flex-col items-center gap-2">
+                        <h1 class="text-[48px] font-bold">Switch </h1>
+                        <div class="flex gap-3">
+                            <button class="border-2 border-black py-2 px-6 rounded-lg" id="switch_on"> Switch ON </button>
+                            <button class="border-2 border-black py-2 px-6 rounded-lg" id="switch_off"> Switch OFF</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <script>
+        var bt1= document.getElementById("switch_on")
+        var bt2 = document.getElementById("switch_off")
+        var img1 = document.getElementById("cat_image")
+        var img2 = document.getElementById("bulb_img")
+
+        bt2.addEventListener("click",()=>{
+            img1.src="https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-eyes-img.png"
+            img2.src="https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-off-img.png"
+        })
+        bt1.addEventListener("click",()=>{
+            img1.src="https://ik.imagekit.io/4z8covdo9/Full%20stack/cat-img.png"
+            img2.src="https://ik.imagekit.io/4z8covdo9/Full%20stack/bulb-go-on-img.png"
+        })
+    </script>
+    
+</body>
+</html>
